@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap');
+*{
+  font-family: 'Saira Condensed', sans-serif;
+}
+.boder-class{
+    border: 1px solid #e5e5e5;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+  }
+  
+  .apartment-name{
+    width: 100%;
+    height: 42px;
+    margin-top:33px;
+  }
+  .apartment-type{
+    height: 42px;
+    margin-top:23px;
+    width: 100%;
+    
+  }
+  .apartment-ranking{
+    height: 42px;
+    margin-top:23px;
+    width: 100%;
+  }
+  .apartment-price{
+  
+    height: 42px;
+    margin-top:23px;
+    width: 100%;
+  }
+  .apartment-status{
+  
+    height: 42px;
+    margin-top:23px;
+    width: 100%;
+  }
+  .apartment-localtion{
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 7px;
+  }
+  .body-all{
+    margin-right:24px;
+    margin-left:24px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 7px;
+    margin-top:13px;
+  }
+  .header-checkbox{
+    padding-left:20px;
+  }
+  .header-icon{
+    padding-left:81px;
+    vertical-align:0 !important;
+  }
+  .header-area{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  padding-left:290px;
+  }
+  .header-date{
+    padding-left:138px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .header-title{
+    padding-left:64px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  }
+  .group-but{
+    margin-left:42px !important;
+    margin-top:25px !important;
+    margin-bottom:21px !important;
+  }
+  .success-icon{
+    position: absolute;
+    right: 50%;
+    top: -34px;
+    left: 34%;
+  }
+  .suc-but{
+    padding: .79em 6.7em 0.785714em !important;
+    margin-left:85px !important;
+  }
+  .rodal-dialog span{
+    display: none;
+  }
+  .bar1{
+    cursor: pointer;
+    padding-left:123px !important; 
+  }
+  .logo{
+    padding-top:35px;
+    
+  }
+  .suc-tit{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  padding-top:64px;
+  }
+  .suc-alert{
+    padding-left:76px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding-right:62px;
+  margin-top: -14px;
+  }
+  .group-but1{
+    margin-left:643px !important;
+    margin-top:25px !important;
+    margin-bottom:21px !important;
+  }
+  .dropdown-but{
+    float: right;
+    color:black !important
+  }
+  .header-all{
+    background-color: #F1F1F1;
+    margin-right:24px;
+    margin-left:24px;
+  }
+  .check-box{
+    padding-left:20px;
+    padding-top:33px;
+  }
+  .all-img{
+    width: 100%;
+    height: auto ;
+  }
+  .img-container{
+    width: 54px;
+    height: 63px;
+    margin-top:13px;
+    margin-left:65px;
+  }
+  .all-title{
+    padding-left:54px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;  
+    padding-top:37px;
+  }
+  .all-area{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  padding-left:140px;
+  padding-top:37px;
+  }
+  .fullbody{
+    background-color: #F1F1F1;
+    width: 100%;
+  }
+  .all-date{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-left:134px;
+    padding-top:37px;
+  }
+  .all-buton{
+    margin-left:163px !important;
+    padding-top:22px;
+  }
+  .all-icon{
+    padding-left:21px;
+  }
+  .icon-but{
+    padding-left:12px; 
+  }
+  .apartment-city{
+    height: 34px;
+    margin-left:62px;
+  }
+  .apartment-dis{
+    height: 34px;
+    margin-left:38px;
+  }
+  .apartment-address{
+    margin-left: 36px;
+      width: 549px;
+      height: 34px;
+  }
+  .addrest{
+    margin-top:23px;
+  }
+  .apartment-localNote{
+    margin-left: 49px;
+      width: 549px;
+      height: 80px;
+  }
+  .local-top{
+    margin-top: 29px;
+  }
+  .local-bot{
+    margin-bottom:15px;
+  }
+  .apartment-rooms{
+    background-color: #ffff;
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .fur{
+    margin-bottom: 7px;
+  }
+  .ser{
+    color: #4D5257 !important;
+  }
+  .roomet{
+    padding-top:29px;
+    margin-left:27px;
+  }
+  .roomet-bot{
+    margin-left:27px;
+    padding-top:21px;
+    padding-bottom:20px;
+  }
+  .addrest label{
+    margin-left:15px;
+  }
+  .service{
+    background-color: #fff;
+    margin-bottom: 7px ;
+  }
+  .margin-ne{
+    margin-bottom: 7px ;
+  }
+  input::placeholder {
+    
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  }
+  .seres{
+    display: inline-block;
+    margin-top:10px;
+  }
+  .seres label{
+    padding-left: 0px;
+  }
+  .seres-1 label{
+    padding-left: 10px;
+  }
+  .seres-1{
+    display: inline-block;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+  }
+  .seres-1 input{
+    margin-left: 7px;
+  }
+  .first input{
+    margin-left: 14px !important;
+  }
+  .last input{
+    margin-left: 21px !important;
+  }
+  .service-buton{
+    margin-top: 29px !important
+  }
+  .service-input{
+    height: 34px;
+    padding: 11px !important;
+  }
+  .save-buton{
+    margin-top:20px !important;
+    margin-left:13px !important;
+  }
+  .pre-buton{ 
+    margin-left: 125px !important;
+    margin-top:20px !important;
+  }
+  .description{
+    width: 100%;
+    height: 118px;
+  }
+  
+  .boder-bot{
+    height: 48px;
+    border-bottom:  0.4px solid #7E7E7E;
+    padding-top:15px;
+  }
+  
+  .public-div{
+    margin-top:33px;
+    height: 209px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .Img-div{
+    margin-top:18px;
+    height: 242px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .application{
+    background-color: #F1F1F1;
+  }
+  .PubButton{
+    margin-left: 235px !important;
+    margin-top:66px !important;
+  }
+  .ImgButton{
+    margin-left: 249px !important;
+    margin-top:15px !important;
+  }
+  .img-child{
+    width: 100%;
+    height: 118px;
+    margin-top: 13px;
+  }
+  .fix{
+    margin-left:0px !important;
+    margin-right:0px !important;
+  }
+  .rm-padding{
+    padding-left:5px !important;
+    padding-right:5px !important;
+  }
+  .rm-col-padding{
+    padding-left:0px !important;
+    padding-right:0px !important;
+  }
+  
+  .boder-bot label{
+    font-size: 25px;
+  line-height: 29px;
+    color: #4D5257;
+    margin-top:0px;
+    margin-left:13px;
+  }
+  .last-row{
+    margin-bottom:20px;
+  }
+  /*================================================================================*/
+  .new-header{
+    height: 203px;
+    width: 100%;
+    background-color: #064475;
+  }
+  .logo-header{
+    height: 59px;
+    width: 100%;
+    background-color: #064475;
+  }
+  .avart{
+    height: 144px;
+    width: 100%;
+  }
+  .fix-avat{
+    border-radius: 50%;
+    width: 35%;
+    margin-left:70px;
+    margin-top:18px;
+  }
+  .name-title{
+    margin-left:54px;
+    font-family: Roboto;
+    font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  }
+  .Dashboard{
+    margin-top:43px;
+  }
+  .Dashboard .home{
+    margin-left:30px;
+  }
+  .Dashboard i{
+    vertical-align: 0% !important;
+  }
+  
+  .dash-title{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  margin-left:15px;
+  cursor: pointer;
+  color:black !important;
+  }
+  
+  .Apartment-list i{
+    vertical-align: 0% !important;
+    margin-right:14px;
+  }
+  .Apartment-list{
+    margin-left:10px;
+    margin-top:26px;
+  }
+  .Apartment-tit{
+    font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 25px !important;
+  opacity: none !important;
+  
+  }
+  .apartment-room-child{
+    margin-left:10px;
+  }
+  .Apartment-child{
+    margin-left:49px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+  }
+  .apart-pare{
+    margin-top:13px;
+  }
+  .big-title{
+    margin-top:77px !important;
+    margin-left:393px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 59px;
+  color:white
+  }
+  .white-button{
+    background-color: white !important ;
+  }
+  .big-lable{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  margin-top:5px;
+  }
+  
+  
+  .customSelect {
+  
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 0.25rem 0.75rem;
+  }
+  
+  input{
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  }
+
+
+
+  /*======================================================detail=========================================*/
+  .header-detail{
+    height: 91px;
+    background-color: white;
+  }
+  .img-cover{
+    width:100%;
+    height: auto;
+  }
+  .slide-img{
+    height: 100%;
+    height: auto;
+  }
+  .slider-container{
+    height: 78px;
+    border-bottom: 1px shadow;
+  }
+  .detail-container{
+    
+    padding-left:227px;
+    padding-right:227px;
+    background-color: #fff;
+  }
+  .detail-title{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+  }
+  .detail-price{
+    width: 100%;
+    height: auto;
+    border : 1px ;
+    height: 181px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  }
+  .detail-body{
+    padding-top:41px;
+  }
+  .detail-parap{
+    padding-right:60px;
+  }
+  .prices{
+    padding-top:20px;
+    padding-left:60px;
+  }
+  .detail-bt{
+    margin-left:60px !important;  
+    padding-right: 17px !important;
+    border-radius: 0 !important;
+  }
+  .contac-bt{
+    margin-top:26px !important;
+  }
+  .readermore{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #AB9364;
+
+  }
+  .readermore:hover{
+    cursor: pointer;
+  }
+  .detail-rooms{
+    margin-top:47px;
+    padding-left:150px;
+    padding-right:150px;
+  }
+  .room{
+    background: #FFFFFF;
+border: 0.05px solid #B3B7BC;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+width: 138px;
+height: 109px;
+  }
+  .number{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+padding-left:15px;
+  }
+  .romname{
+    padding-left:15px;
+  }
+  .iconroom{
+    padding-top:10px;
+    padding-left: 10px;
+  }
+  .under-room{
+    margin-top:21px !important;
+  }
+  .furniture-body{
+    margin-top:47px;
+  }
+  .rodal-title{
+    text-align: center;
+    padding-left:0 !important;
+  }
+  .furniture-title{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 66px;
+
+color: #AB9364;
+text-align: center;
+  }
+  .fur{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 31px;
+
+color: #AB9364;
+padding-left:14px;
+  }
+  .list-furniture i{
+    vertical-align: 0px !important;
+  }
+  .list-furniture{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .Gallerry{
+    margin-top:47px !important;
+  }
+  .gallary-but{
+    padding-left:52px !important;
+  }
+  .gallary-but .ui.button {
+    background: #fff !important;
+  }
+  .gallary-but .ui.button:hover{
+    border: 1px solid #AB9364;
+    color: #AB9364;
+    border-radius: 0 !important;
+  }
+
+  .gallary-but .ui.button:focus{
+    border: 1px solid #AB9364;
+    color: #AB9364;
+    border-radius: 0 !important;
+  }
+  .gallary-pic{
+    margin-top:41px;
+  }
+  .pic-pd{
+    padding-left:5px !important;
+  }
+  .pic-mg{
+    margin-top:5px;
+  }
+  .local-detail{
+    width: 100%;
+    background: #F7F7F7;
+    height: 449px;
+    padding-left:13px;
+    padding-right:13px;
+    padding-top:24px;
+  }
+  .del-adress{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 31px;
+
+  }
+
+  .furniture-body .ui.button {
+    background: #fff !important;
+    border: 1px solid #AB9364;
+    color: #AB9364;
+    border-radius: 0 !important;
+  }
+  .ser-more{
+    margin-left:43% !important;
+    margin-top:17px !important;
+    margin-bottom: 64px !important;
+  }
+  .del-notes{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 31px;
+  }
+  .pos{
+    font-family: Saira Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 31px;
+padding-left : 28px ;
+  }
+  .col-map i{
+    vertical-align: 0 !important;
+    color: #AB9364;
+  }
+  .map{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .rodal-ser{
+    padding-left:160px;
+    padding-right:160px;
+    padding-bottom: 44px;
+    padding-top:24px;
+    width: 1231px;
+height: 683px;
+  }
+  .mg-top{
+    padding-top:47px !important;
+  }
+  .table-rodal{
+    width: 800px;
+    margin: auto;
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 40px;
+margin-bottom: 30px;
+  }
+  .table-rodal th{
+    color:#AB9364;
+  }
+  .rodal-dialog .ui.button {
+    background: #fff !important;
+    border: 1px solid #AB9364;
+    color: #AB9364;
+    border-radius: 0 !important;
+    margin: auto;
+    display: block; 
+}
+.name-input{
+  display: inline-block;
+}
+.review-input{
+  width: auto !important;
+  padding:0 !important;
+  margin-left:36px !important;
+  border: 1px solid #AB9364;
+}
+.review-rate{
+  padding-top:22px;
+}
+.react-rater{
+  padding-left:36px;
+
+}
+.react-rater-star {
+  font-size: 20px;
+}
+.review-int{
+  width: 85% !important;
+  margin-left: 30px !important;
+  border: 1px solid #AB9364;
+}
+.related{
+  margin-top:47px;
+  border-top:1px solid #CECECE;
+}
+.realted-title{
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 66px;
+
+color: #AB9364;
+}
+.relate-desc{
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+margin-top:6px;
+margin-bottom: 6px;
+color: #000000;
+}
+.related-local{
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+line-height: 19px;
+
+color: #000000;
+}
+.footer{
+  border-top:1px solid #CECECE;
+  margin-top:90px;
+  height: 84px;
+  width: 100%;
+  background-color: white;
+}
+.detail-bid{
+  background-color: white;
+}
+.footer-menu{
+  display: inline-flex;
+  list-style: none;
+  padding-top:21px;
+}
+.footer-menu li{
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+  padding-left:25px;
+}
+.footer-menu li:hover{
+  cursor: pointer;
+}
+.coppyright{
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+float:right;
+padding-top:21px;
+padding-right:227px;
+}
+.all-img:hover{
+  cursor: pointer;
+}
+.relate-desc:hover{
+  cursor: pointer;
+}
+.related-local:hover{
+  cursor: pointer;
+}
+.pic-pd1{
+  padding-right:10px !important;
+}
+.header-menu{
+  display: inline-flex;
+  list-style: none;
+  padding-top:35px;
+  float: right;
+}
+.header-menu li{
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+  padding-left:25px;
+}
+.header-menu li:hover{
+  cursor: pointer;
+}
+.slide-detail{
+  height: 79px;
+  width: 100%;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.react-multi-carousel-track li{
+  width: 230px !important; 
+}
+.react-multi-carousel-track li img{
+  padding:10px;
+}
+.react-multi-carousel-list{
+  background: #F8F8F8 !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
